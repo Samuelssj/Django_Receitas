@@ -6,3 +6,8 @@ from django.http import HttpResponse
 def index(request):
     # return HttpResponse('<h1> receitas</h1')
     return render(request, 'index.html')
+
+
+def receita(request):
+
+    return render(request, 'receita.html')
